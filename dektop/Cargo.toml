@@ -1,0 +1,11 @@
+[package]
+name = "dektop"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+[dependencies]
+chippy_core = { path = "../chippy_core" }
+
+[dependencies.sdl2]
+version = "*"
+features = ["use_mac_framework"]
